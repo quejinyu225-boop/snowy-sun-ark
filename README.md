@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 雪日方舟
 
-# Run and deploy your AI Studio app
+一个现代化的建筑展示 H5 项目，展示建筑设计的各个维度，包括设计方案、楼层平面图、气候分析、建筑效果图等内容。
 
-This contains everything you need to run your app locally.
+## 项目简介
 
-View your app in AI Studio: https://ai.studio/apps/bf89f80a-b54f-41fc-98d5-a2f486b89e68
+雪日方舟是一款基于 React + Vite 构建的建筑展示应用，旨在通过交互式界面展示建筑项目的详细信息。项目包含以下核心模块：
 
-## Run Locally
+- **设计展示**：建筑外观设计方案展示
+- **楼层平面**：各楼层平面图浏览
+- **气候分析**：温度、风力等气候数据可视化
+- **施工工艺**：建筑施工过程展示
+- **效果图**：建筑最终效果预览
 
-**Prerequisites:**  Node.js
+## 运行方式
 
+### 前置条件
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Node.js (推荐版本：18.x 或更高)
+- npm 或 yarn
+
+### 本地运行
+
+1. 安装依赖：
+   ```bash
+   npm install
+   ```
+
+2. 启动开发服务器：
+   ```bash
+   npm run dev
+   ```
+
+3. 在浏览器中访问：`http://localhost:5173`
+
+### 构建生产版本
+
+```bash
+npm run build
+```
+
+构建产物将输出到 `dist` 目录。

@@ -7,8 +7,8 @@ export function Hero() {
   const [isPlaying, setIsPlaying] = useState(true);
 
   const slides = [
-    { src: "/hero-bg.png", alt: "Main Perspective 01" },
-    { src: "/效果图.jpg", alt: "Main Perspective 02" },
+    { src: "/hero-bg1.jpg", alt: "Main Perspective 01" },
+    { src: "/hero-bg2.jpg", alt: "Main Perspective 02" },
   ];
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export function Hero() {
               <div className="mt-8 space-y-2 opacity-80">
                 <p className="text-sm font-medium tracking-wide">学生：01121132阙锦钰</p>
                 <p className="text-sm font-medium tracking-wide">指导老师：张宏  张弦</p>
-                <p className="text-sm font-medium tracking-wide">答辩时间：2026年6月3日</p>
+                <p className="text-sm font-medium tracking-wide">毕设时间：2026年2月-5月</p>
               </div>
             </div>
 

@@ -107,12 +107,12 @@ export function Tech() {
               </p>
             </div>
             <div className="space-y-6">
-              <h4 className="label-caps">围护性能 / Envelope Performance</h4>
+              <h4 className="label-caps">性能模拟 / Performance Simulation</h4>
               <div className="aspect-square bg-white border cad-line overflow-hidden">
                 <img 
-                  src="/climate-temperature.png" 
+                  src="/风热分析.png" 
                   className="w-full h-full object-contain p-8" 
-                  alt="Thermal Performance" 
+                  alt="风热分析" 
                 />
               </div>
               <p className="text-sm text-slate-500 leading-relaxed">
@@ -134,9 +134,9 @@ export function Tech() {
               <h4 className="label-caps">水资源循环 / Water Cycle</h4>
               <div className="aspect-square bg-white border cad-line overflow-hidden">
                 <img 
-                  src="tech6.png" 
+                  src="/水资源循环.png" 
                   className="w-full h-full object-contain p-8" 
-                  alt="Water Cycle System" 
+                  alt="水资源循环" 
                 />
               </div>
               <p className="text-sm text-slate-500 leading-relaxed">
@@ -197,19 +197,7 @@ export function Tech() {
             ))}
           </div>
 
-          {/* Technical Diagram Placeholder */}
-          <div className="mt-24 relative group">
-            <div className="aspect-[21/9] bg-white border cad-line flex items-center justify-center p-2 overflow-hidden">
-              <img 
-                src="input_file_0.png" 
-                className="w-full h-full object-contain transition-all duration-700 group-hover:scale-[1.01]" 
-                alt="Detailed Construction Analysis"
-              />
-            </div>
-            <p className="mt-6 text-[10px] text-slate-300 font-mono text-center uppercase tracking-[0.4em]">
-              Construction Detail Analysis / 构造系统逻辑解析集成
-            </p>
-          </div>
+
         </div>
       </div>
     </section>

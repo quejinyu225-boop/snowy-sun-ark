@@ -12,6 +12,7 @@ import { Concept } from "./components/Concept";
 import { Design } from "./components/Design";
 import { Tech } from "./components/Tech";
 import { Fabrication } from "./components/Fabrication";
+import { AIInsights } from "./components/AIInsights";
 import { Footer } from "./components/Footer";
 import { ProjectMgmt } from "./components/ProjectMgmt";
 
@@ -33,9 +34,9 @@ export default function App() {
         <Design />
         <Tech />
         <Fabrication />
+        <AIInsights />
       </main>
       <Footer />
     </div>
   );
 }
-

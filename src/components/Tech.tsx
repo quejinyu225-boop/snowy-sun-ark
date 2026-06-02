@@ -94,20 +94,7 @@ export function Tech() {
 
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <h4 className="label-caps">太阳能利用 / Solar Energy</h4>
-              <div className="aspect-square bg-white border cad-line overflow-hidden">
-                <img 
-                  src="/climate-zap.png" 
-                  className="w-full h-full object-contain p-8" 
-                  alt="Solar Energy Analysis" 
-                />
-              </div>
-              <p className="text-sm text-slate-500 leading-relaxed">
-                采用高效晶硅光伏组件，单站装机容量 12kW，可实现全天诊疗负荷的 100% 能源自洽，并为周边提供电力补偿。通过智能储能系统平衡昼夜能源差异。
-              </p>
-            </div>
-            <div className="space-y-6">
-              <h4 className="label-caps">性能模拟 / Performance Simulation</h4>
+              <h4 className="label-caps">风热环境分析 / Wind & Thermal Analysis</h4>
               <div className="aspect-square bg-white border cad-line overflow-hidden">
                 <img 
                   src="/风热分析.png" 
@@ -116,7 +103,20 @@ export function Tech() {
                 />
               </div>
               <p className="text-sm text-slate-500 leading-relaxed">
-                采用‘气凝胶+石墨泡沫’夹芯构造组合，传热系数 λ=0.015，有效解决高海拔极端气温下的热流散失，维持室内恒温环境。
+                通过计算流体力学（CFD）模拟分析高原强风环境下的建筑周边气流分布，优化建筑形态以引导自然通风，降低建筑能耗。分析显示，锯齿型体量可有效引导高原强风，减少建筑迎风面压力，优化室内微气候环境。
+              </p>
+            </div>
+            <div className="space-y-6">
+              <h4 className="label-caps">围护性能分析 / Envelope Performance</h4>
+              <div className="aspect-square bg-white border cad-line overflow-hidden">
+                <img 
+                  src="/围护性能分析.png" 
+                  className="w-full h-full object-contain p-8" 
+                  alt="围护性能分析" 
+                />
+              </div>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                采用‘气凝胶+石墨泡沫’夹芯构造组合，传热系数 λ=0.015W/(m·K)，结合三玻两腔Low-E玻璃幕墙系统，有效解决高海拔极端气温下的热流散失问题，确保室内恒温环境。
               </p>
             </div>
           </div>
@@ -127,6 +127,17 @@ export function Tech() {
           <div className="space-y-2 text-center">
             <h2 className="label-caps">02. Self-Sufficiency</h2>
             <h3 className="text-4xl font-light tracking-tight text-slate-800">建筑自保障</h3>
+          </div>
+
+          {/* 顶部大图 */}
+          <div className="space-y-6">
+            <div className="aspect-[16/9] bg-white border cad-line overflow-hidden">
+              <img 
+                src="/自保障1.png" 
+                className="w-full h-full object-contain p-4" 
+                alt="建筑自保障" 
+              />
+            </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
@@ -147,9 +158,9 @@ export function Tech() {
               <h4 className="label-caps">能源自给 / Energy Independence</h4>
               <div className="aspect-square bg-white border cad-line overflow-hidden">
                 <img 
-                  src="/input_file_0.png" 
+                  src="/能源自给.png" 
                   className="w-full h-full object-contain p-8" 
-                  alt="Energy System" 
+                  alt="能源自给" 
                 />
               </div>
               <p className="text-sm text-slate-500 leading-relaxed">

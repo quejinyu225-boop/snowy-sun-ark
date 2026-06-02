@@ -453,61 +453,14 @@ export function Design() {
             </p>
           </div>
 
-          <div className="space-y-12">
+          <div className="space-y-6">
             <h4 className="label-caps">全预制构件清单</h4>
-            
-            {/* 结构系统 */}
-            <div className="space-y-4">
-              <div className="flex items-center gap-2 border-b-2 border-slate-900 pb-2">
-                <ChevronDown className="w-3 h-3" />
-                <span className="text-xs font-bold uppercase tracking-[0.3em] text-slate-900">结构系统 / Structural System</span>
-              </div>
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm border-b border-slate-100 pb-2">
-                  <span className="font-semibold text-slate-700">UHPC 基础板</span>
-                  <span className="text-xs text-slate-400 font-mono">UHPC 混凝土</span>
-                </div>
-                <div className="flex justify-between text-sm border-b border-slate-100 pb-2">
-                  <span className="font-semibold text-slate-700">板式轻钢骨架</span>
-                  <span className="text-xs text-slate-400 font-mono">Q355 高强钢</span>
-                </div>
-              </div>
-            </div>
-
-            {/* 围护与内装 */}
-            <div className="space-y-4">
-              <div className="flex items-center gap-2 border-b-2 border-slate-900 pb-2">
-                <ChevronDown className="w-3 h-3" />
-                <span className="text-xs font-bold uppercase tracking-[0.3em] text-slate-900">围护与内装 / Envelope & Interior</span>
-              </div>
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm border-b border-slate-100 pb-2">
-                  <span className="font-semibold text-slate-700">UHPCC 模块外壳</span>
-                  <span className="text-xs text-slate-400 font-mono">复合材料</span>
-                </div>
-                <div className="flex justify-between text-sm border-b border-slate-100 pb-2">
-                  <span className="font-semibold text-slate-700">气凝胶保温板</span>
-                  <span className="text-xs text-slate-400 font-mono">纳米气凝胶</span>
-                </div>
-              </div>
-            </div>
-
-            {/* 设备与管线 */}
-            <div className="space-y-4">
-              <div className="flex items-center gap-2 border-b-2 border-slate-900 pb-2">
-                <ChevronDown className="w-3 h-3" />
-                <span className="text-xs font-bold uppercase tracking-[0.3em] text-slate-900">设备与管线 / MEP Systems</span>
-              </div>
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm border-b border-slate-100 pb-2">
-                  <span className="font-semibold text-slate-700">BIPV 能源舱</span>
-                  <span className="text-xs text-slate-400 font-mono">晶硅/高效储能</span>
-                </div>
-                <div className="flex justify-between text-sm border-b border-slate-100 pb-2">
-                  <span className="font-semibold text-slate-700">相变蓄热模块</span>
-                  <span className="text-xs text-slate-400 font-mono">PCM 材料</span>
-                </div>
-              </div>
+            <div className="aspect-auto bg-white border cad-line overflow-hidden">
+              <img 
+                src="/构件清单.png" 
+                className="w-full h-auto object-contain" 
+                alt="全预制构件清单" 
+              />
             </div>
           </div>
         </div>
